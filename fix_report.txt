@@ -1,0 +1,23 @@
+{
+  "project_root": "/mnt/data/n1_projeto_analyze",
+  "total_files": 167,
+  "lib_dirs_found": [
+    "/mnt/data/n1_projeto_analyze/lib"
+  ],
+  "main_dart_files_found": [
+    "lib/main.dart"
+  ],
+  "moved_files": [],
+  "package_imports_found": [
+    "flutter_test",
+    "flutter",
+    "n1_projeto"
+  ],
+  "pubspec_path": "/mnt/data/n1_projeto_analyze/pubspec.yaml",
+  "pubspec_name": "flutter_test",
+  "actions_taken": [
+    "Changed pubspec.yaml name from 'n1_projeto' to 'flutter_test' to match package imports"
+  ],
+  "issues": [],
+  "note": "I made automated, conservative fixes (merged stray lib directories into project lib and adjusted pubspec name to match package imports if needed). I did not run 'flutter pub get' or compile the project. Some code-level errors or missing dependencies may still prevent 'flutter run'."
+}
